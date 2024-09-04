@@ -26,7 +26,7 @@ function Login() {
             } else {
                 if (resp.password === password) {
                     console.log('Success');
-                    usenavigate('/')
+                    usenavigate('/sign-in')
                 } else {
                     console.log('Please Enter valie credentials');
                 }
@@ -128,9 +128,9 @@ function Login() {
 
                     </form>
 
-                    {/* <Link to={'/'} className="pt-[51px] text-[#5FB2FF] text-[16px] leading-[17px] border-b-[1px] border-solid border-[#5FB2FF]">Forgot your password?</Link> */}
+                    <Link to={'/'} className="pt-[51px] text-[#5FB2FF] text-[16px] leading-[17px] border-b-[1px] border-solid border-[#5FB2FF]">Forgot your password?</Link>
 
-                    <button className="pt-[103px] text-[#5FB2FF] text-[16px] leading-[17px] border-b-[1px] border-solid border-[#5FB2FF]">Forgot your password?</button>
+                    {/* <button className="pt-[103px] text-[#5FB2FF] text-[16px] leading-[17px] border-b-[1px] border-solid border-[#5FB2FF]">Forgot your password?</button> */}
 
                 </div>
 

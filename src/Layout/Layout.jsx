@@ -6,6 +6,8 @@ import transaction from "/icons/transaction_icon.png"
 import exchange from "/icons/exchange_icon.png"
 import market from "/icons/market_icon.png"
 import log_out from "/icons/log_out.png"
+import message from "/icons/message.png"
+import bell from "/icons/bell.png"
 
 function Layout() {
     const [open, setOpen] = useState(true)
@@ -22,7 +24,7 @@ function Layout() {
 
             <div className="bg-custom-radial-gradient flex">
 
-                <aside className={`bg-aside-background shadow-aside-shadow min-h-screen ${open ? 'w-[220px]' : 'w-[72px]'} duration-500 py-[24px] px-[15px]`}>
+                <aside className={`bg-aside-background shadow-aside-shadow min-h-screen ${open ? 'w-[300px]' : 'w-[72px]'} duration-500 py-[24px] px-[15px]`}>
 
                     <div className="flex items-center justify-center flex-col gap-1">
 
@@ -87,15 +89,35 @@ function Layout() {
 
                 </aside>
 
-                <Outlet />
+                <div className="container flex flex-col gap-7">
 
-                {/* <header className="bg-yellow-500 w-full h-[100px]">
+                    <header className="h-[88px] flex flex-col">
 
-                    <h1 className="text-2xl text-red-400">This is Header</h1>
+                        <div className="flex items-center justify-between">
 
-                    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati doloremque mollitia veniam deleniti iusto sunt enim? Iure fugiat incidunt pariatur culpa sint, quidem corrupti numquam odit maxime distinctio qui architecto?</h2>
+                            <div>
 
-                </header> */}
+                                <input type="text" placeholder="Search" className="inp_search" />
+
+                            </div>
+
+                            <div className="flex items-center justify-center gap-[32px]">
+
+                                <img src={message} alt="" className="cursor-pointer" />
+
+                                <img src={bell} alt="" className="cursor-pointer" />
+
+                            </div>
+
+                        </div>
+
+                        <div className="w-full h-[2px] bg-[#2D317A]"></div>
+
+                    </header>
+
+                    <Outlet />
+
+                </div>
 
                 {/* <h1 className="text-red-500">Home</h1> */}
 

@@ -124,8 +124,8 @@ function Register() {
 
                         <div className="flex items-center justift-center gap-[32px] mt-[32px]">
 
-                            {/* <Link to={'/sign-in'} className="w-[105px] h-[42px] rounded-lg bg-btn-background text-[#949EC0] text-[16px] leading-[19px] font-bold flex items-center justify-center hover:scale-105 duration-300">SIGN IN</Link> */}
-                            <button className="w-[105px] h-[42px] rounded-lg bg-btn-background text-[#949EC0] text-[16px] leading-[19px] font-bold flex items-center justify-center hover:scale-105 duration-300">SIGN IN</button>
+                            <Link to={'/sign-in'} className="w-[105px] h-[42px] rounded-lg bg-btn-background text-[#949EC0] text-[16px] leading-[19px] font-bold flex items-center justify-center hover:scale-105 duration-300">SIGN IN</Link>
+                            {/* <button className="w-[105px] h-[42px] rounded-lg bg-btn-background text-[#949EC0] text-[16px] leading-[19px] font-bold flex items-center justify-center hover:scale-105 duration-300">SIGN IN</button> */}
                             <button className="w-[105px] h-[42px] rounded-lg bg-btn-background_sec text-white text-[16px] leading-[19px] font-bold flex items-center justify-center hover:scale-105 duration-300">SIGN UP</button>
                             {/* <Link to={'/'} className="w-[105px] h-[42px] rounded-lg bg-btn-background_sec text-white text-[16px] leading-[19px] font-bold flex items-center justify-center hover:scale-105 duration-300">SIGN UP</Link> */}
 
@@ -133,9 +133,9 @@ function Register() {
 
                     </form>
 
-                    {/* <Link to={'/'} className="pt-[51px] text-[#5FB2FF] text-[16px] leading-[17px] border-b-[1px] border-solid border-[#5FB2FF]">Forgot your password?</Link> */}
+                    <Link to={'/'} className="pt-[51px] text-[#5FB2FF] text-[16px] leading-[17px] border-b-[1px] border-solid border-[#5FB2FF]">Forgot your password?</Link>
 
-                    <button className="pt-[51px] text-[#5FB2FF] text-[16px] leading-[17px] border-b-[1px] border-solid border-[#5FB2FF]">Forgot your password?</button>
+                    {/* <button className="pt-[51px] text-[#5FB2FF] text-[16px] leading-[17px] border-b-[1px] border-solid border-[#5FB2FF]">Forgot your password?</button> */}
 
                 </div>
 

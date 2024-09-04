@@ -8,6 +8,10 @@ export default {
     extend: {
       container: {
         center: true,
+        padding: {
+          DEFAULT: "32px",
+          sm: "32px",
+        },
       },
       backgroundImage: {
         'custom-radial-gradient': 'radial-gradient(63.88% 129.61% at 25.55% 31.91%, #20135C 0%, #140739 92.82%);',

@@ -1,0 +1,15 @@
+.inp_search {
+    width: 300px;
+    height: 32px;
+    border-radius: 25px;
+    outline: none;
+    color: #616a8b;
+    font-size: 16px;
+    line-height: 19px;
+    background-color: #161245;
+    background-image: url('/icons/search.png');
+    background-position-y: center;
+    background-position-x: 265px;
+    background-repeat: no-repeat;
+    padding: 0 20px 0 20px;
+}
