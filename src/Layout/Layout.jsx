@@ -44,7 +44,7 @@ function Layout() {
 
                         <Link to={'/'} className="flex items-center gap-[16px] p-2 hover:bg-[#32395E] duration-300 rounded-[5px]"><div><img src={menu} alt="" /></div> <h2 className={`whitespace-pre duration-500 text-white text-[14px] leading-[19px] font-bold ${!open && 'opacity-0 translate-x-28 overflow-hidden'}`}>Overview</h2></Link>
 
-                        <Link to={'/'} className="flex items-center gap-[16px] p-2 hover:bg-[#32395E] duration-300 rounded-[5px]"><div><img src={wallet} alt="" /></div> <h2 className={`whitespace-pre duration-500 text-[#616A8B] text-[14px] leading-[19px] font-bold ${!open && 'opacity-0 translate-x-28 overflow-hidden'}`}>Wallets</h2></Link>
+                        <Link to={'/wallets'} className="flex items-center gap-[16px] p-2 hover:bg-[#32395E] duration-300 rounded-[5px]"><div><img src={wallet} alt="" /></div> <h2 className={`whitespace-pre duration-500 text-[#616A8B] text-[14px] leading-[19px] font-bold ${!open && 'opacity-0 translate-x-28 overflow-hidden'}`}>Wallets</h2></Link>
 
                         <Link to={'/'} className="flex items-center gap-[16px] p-2 hover:bg-[#32395E] duration-300 rounded-[5px]"><div><img src={transaction} alt="" /></div> <h2 className={`whitespace-pre duration-500 text-[#616A8B] text-[14px] leading-[19px] font-bold ${!open && 'opacity-0 translate-x-28 overflow-hidden'}`}>Transictions</h2></Link>
 
@@ -118,10 +118,6 @@ function Layout() {
                     <Outlet />
 
                 </div>
-
-                {/* <h1 className="text-red-500">Home</h1> */}
-
-                {/* box-shadow: 0px -5px 25px 0px #00032080; */}
 
             </div>
 

@@ -4,6 +4,8 @@ import Home from './pages/Home'
 import Register from './pages/Register'
 import Layout from './Layout/Layout'
 import Login from './pages/Login'
+import Wallet from './pages/Wallets'
+import Wallets from './pages/Wallets'
 
 function App() {
 
@@ -22,6 +24,7 @@ function App() {
         <Route element={<Layout />}>
 
           <Route index path='/' element={<Home />} />
+          <Route path='/wallets' element={<Wallets />} />
 
         </Route>
 

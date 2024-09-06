@@ -13,3 +13,20 @@
     background-repeat: no-repeat;
     padding: 0 20px 0 20px;
 }
+
+.shadow_gradient {
+    filter: drop-shadow(0px 0px 12px #018FFF26);
+}
+
+.news_blc {
+    width: 410px;
+    height: 232px;
+    background: linear-gradient(185.19deg, rgba(27, 18, 78, 0.2) 3.73%, #0F0B38 95.83%);
+    border-radius: 5px;
+    padding: 16px 24px 16px 24px;
+    overflow: auto;
+}
+
+.news_blc::-webkit-scrollbar {
+    display: none;
+}
