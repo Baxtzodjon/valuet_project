@@ -39,6 +39,9 @@ function Home() {
             "round_inner_bg": "#BC5661",
             "bg": "bg-wallet-back-sec",
         },
+    ]
+
+    const wallet_data_sec = [
         {
             "id": Math.random(),
             "name": "Ethereum",
@@ -309,7 +312,7 @@ function Home() {
 
                 <div className="flex items-start justify-start gap-4">
 
-                    <DoughnutChart stylize={"red"} />
+                    <DoughnutChart />
 
                     <div className="w-[280px] h-[312px] bg-chart-background rounded-[5px] shadow-custom-chart px-6 py-4">
 
@@ -360,9 +363,19 @@ function Home() {
 
                     </div>
 
-                    <div className="w-[650px] h-[312px] flex flex-wrap gap-4">
+                    <div className="w-[650px] h-[312px] flex flex-col gap-4">
 
-                        {wallet_data.map(card => <Cards card={card} key={card.id} />)}
+                        <div className="flex gap-4">
+
+                            {wallet_data.map(card => <Cards card={card} key={card.id} />)}
+
+                        </div>
+
+                        <div className="flex gap-4">
+
+                            {wallet_data_sec.map(card => <Cards card={card} key={card.id} />)}
+
+                        </div>
 
                         {/* <div className="w-[284px] h-[148px] bg-wallet-back"></div>
 

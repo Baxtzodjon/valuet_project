@@ -1,3 +1,11 @@
 {
-  "user": []
+  "user": [
+    {
+      "id": "c4bd",
+      "name": "Baxtzod",
+      "surname": "Rasulov",
+      "email": "baxtzod@list.ru",
+      "password": "20080506"
+    }
+  ]
 }

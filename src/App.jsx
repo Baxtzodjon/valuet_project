@@ -6,6 +6,8 @@ import Layout from './Layout/Layout'
 import Login from './pages/Login'
 import Wallet from './pages/Wallets'
 import Wallets from './pages/Wallets'
+import Transictions from './pages/Transictions'
+import Exchange from './pages/Exchange'
 
 function App() {
 
@@ -25,6 +27,8 @@ function App() {
 
           <Route index path='/' element={<Home />} />
           <Route path='/wallets' element={<Wallets />} />
+          <Route path='/transictions' element={<Transictions />} />
+          <Route path='/exchange' element={<Exchange />} />
 
         </Route>
 

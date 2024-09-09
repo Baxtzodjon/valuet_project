@@ -30,11 +30,20 @@ export default {
         'news-blc-back': 'linear-gradient(185.19deg, rgba(27, 18, 78, 0.2) 3.73%, #0F0B38 95.83%);',
         'news-blc-back-sec': 'linear-gradient(180deg, rgba(15, 11, 56, 0) 8.84%, #0F0B38 100%)',
         'line-chart-back-sec': 'linear-gradient(257.68deg, rgba(0, 151, 232, 0) -1.09%, #0097E8 58.53%, rgba(0, 151, 232, 0) 98.83%)',
+        'card-fir-back': 'linear-gradient(237.07deg, rgba(96, 67, 146, 0.5) -8.06%, rgba(15, 11, 56, 0.5) 96.63%)',
+        'card-sec-back': 'linear-gradient(237.07deg, #6162D6 -8.06%, #0F0B38 96.63%)',
+        'card-third-back': 'linear-gradient(237.07deg, #72EB38 -8.06%, #0F0B38 96.63%)',
+        'wallet-chart-back': 'linear-gradient(0deg, #644696, #644696)',
+        'currency-back': 'linear-gradient(180deg, rgba(27, 18, 78, 0.2) 0%, #0F0B38 93.37%)',
+        'currency-btn-back': 'linear-gradient(88.43deg, #1288E8 11.5%, #0097E8 76.7%)',
       },
       boxShadow: {
         'custom': '0px 25px 25px 0px #00032080;',
         'aside-shadow': '0px -5px 25px 0px #00032080;',
         'custom-chart': '0px 4px 25px 0px #00000040;',
+      },
+      colors: {
+        'custom-blue': 'rgba(46, 53, 88, 0.3)',
       }
     },
   },

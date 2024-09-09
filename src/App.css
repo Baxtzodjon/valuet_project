@@ -30,3 +30,16 @@
 .news_blc::-webkit-scrollbar {
     display: none;
 }
+
+.transaction_blc {
+    width: 560px;
+    height: 395px;
+    border-radius: 5px;
+    background: linear-gradient(176.95deg, rgba(27, 18, 78, 0.2) -32.8%, #0F0B38 88.83%);
+    overflow: auto;
+    padding: 16px 24px 16px 24px;
+}
+
+.transaction_blc::-webkit-scrollbar {
+    display: none;
+}
